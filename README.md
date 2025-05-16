@@ -1,2 +1,3 @@
 # CollegeProject
-These projects are done by me. but not as Developer just as learner.
+These projects are done by me. (Note:but not as Developer just as learner.)
+
