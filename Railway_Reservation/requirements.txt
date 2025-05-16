@@ -1,0 +1,9 @@
+bcrypt==4.0.1
+customtkinter==5.2.0
+mysql-connector-python==8.1.0
+pillow==10.0.0
+python-dotenv==1.0.0
+tkcalendar==1.6.1
+matplotlib==3.7.2
+numpy==1.25.2
+CTkMessagebox==2.5

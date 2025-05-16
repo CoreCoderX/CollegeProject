@@ -1,0 +1,36 @@
+
+(Note : This is a simple instruction to run the application in virtual python version) )
+1.Ctk doesn't work on latest version of python 3.13. Ensure you are using python 3.12 or lower.
+   1.1) If you need to run the appliction on virtual python version without uninstalling the latest version follow the below steps.
+          -Install python 3.10(for wide support) on official site.
+          -Add the installed python to the environment variable. (win+x->system->advanced system settings->environment variables->system variables->path->edit->new->paste the path of python)
+          -check you have two python versions , one is your latest version and other is the one you just installed.
+               -open cmd and run the below command
+                      -> where python 
+               -it will show like this: 
+                            C:\Users\sivap>where python
+                            C:\Users\sivap\AppData\Local\Programs\Python\Python313\python.exe
+                            C:\Users\sivap\AppData\Local\Programs\Python\Python310\python.exe  
+          -Once you have two python versions, open new terminal on VScode and run the below command
+               -> py -3.10 -m venv venv (this will create a virtual environment in the current directory)
+               -> .\venv\Scripts\activate     
+               -> python --version (To ensure it works on python 3.10)
+          -Now you can run the application on this virtual environment.Just follow the below steps
+               -> pip install -r requirements.txt
+               -> change .env file to provide important credentials.(username and password of yours)
+               -> paste the database.sql file commands in your Mysql.
+               -> python main.py
+
+(Note : Works only in python 3.12 or lower)
+2.open vscode and open new terminal. Run the below command
+       -> pip install -r requirements.txt
+       -> change .env file to provide important credentials.(username and password of yours)
+       -> paste the database.sql file commands in your Mysql.
+       -> python main.py
+
+
+
+Login credentials:
+For admin:
+   Email:jose123@gmail.com
+   Password:jose123
